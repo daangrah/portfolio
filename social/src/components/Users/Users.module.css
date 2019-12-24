@@ -1,0 +1,69 @@
+.userPic{
+    object-fit: cover;
+    width: 110px;
+    height: 110px;
+}
+.btn1{
+    border: 1px solid #0d2b31;
+    background: none;
+    padding: 7px 7px;
+    font-size: 13px;
+    cursor: pointer;
+    margin: 7px;
+    color: #0d2b31;
+    transition: 0.6s;
+    position: relative;
+    overflow: hidden;
+}
+.btn1:hover{
+    color: aliceblue;
+}
+.btn1::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #154854;
+    z-index: -1;
+    transition: 0.6s;
+    top: 0;
+    border-radius: 0 0 50% 50%;
+}
+.btn1:hover::before{
+    height: 180%;
+}
+.btn2{
+    border: 1px solid #0d2b31;
+    background: none;
+    padding: 7px 13px;
+    font-size: 13px;
+    cursor: pointer;
+    margin: 7px;
+    color: #0d2b31;
+    transition: 0.6s;
+    position: relative;
+    overflow: hidden;
+}
+.btn2:hover{
+    color: aliceblue;
+}
+.btn2::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #154854;
+    z-index: -1;
+    transition: 0.6s;
+    bottom: 0;
+    border-radius: 50% 50% 0 0;
+}
+.btn2:hover::before{
+    height: 180%;
+}
+.selectedPage{
+    font-weight: bold;
+    font-size: 1.1em;
+}

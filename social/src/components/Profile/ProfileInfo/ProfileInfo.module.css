@@ -1,0 +1,9 @@
+.prof_pic2{
+    object-fit: cover;
+    width: 110px;
+    height: 110px;
+    transition: width 0.5s ease;
+}
+.prof_pic1:hover img{
+    width: 200px;
+}

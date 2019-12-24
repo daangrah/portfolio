@@ -1,0 +1,11 @@
+.post{
+   color: #4b4b4b;
+   background-color: #cccccc;
+   margin: 10px;
+}
+.post img{
+   object-fit: cover;
+   width: 50px;
+   height: 50px;
+   border-radius: 40px;
+}

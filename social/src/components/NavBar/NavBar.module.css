@@ -1,0 +1,13 @@
+.navBar{
+    grid-area: n;
+    background-color: #cccccc;
+    display: flex;
+    justify-content: center;
+  }
+.item a{
+    color: #1c6474;
+    text-decoration: none;
+  }
+.item a.activeLink{
+    color: #0d2b31;
+  }
